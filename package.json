@@ -1,0 +1,32 @@
+{
+  "name": "weblate-sync-tool",
+  "version": "1.0.0",
+  "description": "A tool to synchronize translation files with Weblate.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "bin": {
+    "translation-sync-tool": "./bin/cli.js"
+  },
+  "keywords": [
+    "translation",
+    "weblate",
+    "synchronization",
+    "locales",
+    "i18n"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/osternaudClem/weblate-sync-tool"
+  },
+  "author": "Cl3tus",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "0.5.14",
+    "axios": "1.7.2",
+    "gettext-parser": "8.0.0",
+    "p-iteration": "1.1.8",
+    "recursive-readdir": "2.2.3"
+  }
+}
