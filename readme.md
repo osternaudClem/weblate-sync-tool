@@ -1,5 +1,7 @@
 # Weblate Sync Locales
 
+A tool to synchronize translation files with Weblate.
+
 ## Installation
 
 ```sh
@@ -67,7 +69,7 @@ touch runfile.js
 ```
 
 ```js
-const weblateSyncLocal = require('weblate-sync-tool');
+const weblateSyncLocal = require('translation-sync-tool');
 
 const config = {
   weblateApiKey: 'MY KEY',
