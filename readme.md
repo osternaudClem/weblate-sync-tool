@@ -69,7 +69,7 @@ touch runfile.js
 ```
 
 ```js
-const weblateSyncLocal = require('translation-sync-tool');
+const weblateSyncLocal = require('weblate-sync-tool');
 
 const config = {
   weblateApiKey: 'MY KEY',
