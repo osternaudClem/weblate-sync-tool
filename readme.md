@@ -26,7 +26,7 @@ yarn add weblate-sync-tool
   "translationFunction": "t"
   "sourceDirectory": "src",
   "localesDirectory": "src/locales",
-  "temporaryDirectory": "tmp",
+  "temporaryDirectory": "locales_tmp",
 }
 ```
 

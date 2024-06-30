@@ -39,7 +39,11 @@ const sync = async (config) => {
     if (count > 0) {
       newKeyCount = Math.max(newKeyCount, count);
       updatedPo.push(lang);
-      writeFile(config.tmpDirectory, poFilename, gettextParser.po.compile(po));
+      writeFile(
+        config.temporaryDirectory,
+        poFilename,
+        gettextParser.po.compile(po)
+      );
     }
 
     if (config.supportedLanguages.includes(lang)) {
