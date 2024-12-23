@@ -1,6 +1,6 @@
 {
   "name": "weblate-sync-tool",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A tool to synchronize translation files with Weblate.",
   "main": "src/index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "license": "ISC",
   "dependencies": {
     "adm-zip": "0.5.14",
-    "axios": "1.7.2",
+    "axios": "1.7.9",
     "gettext-parser": "8.0.0",
     "p-iteration": "1.1.8",
     "recursive-readdir": "2.2.3"
