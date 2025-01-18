@@ -23,7 +23,7 @@ yarn add weblate-sync-tool
   "weblateProject": "my-project",
   "weblateComponent": "my-component",
   "supportedLanguages": ["en", "fr"],
-  "translationFunction": "t"
+  "translationFunction": ["t"]
   "sourceDirectory": "src",
   "localesDirectory": "src/locales",
   "temporaryDirectory": "locales_tmp",
@@ -77,7 +77,7 @@ const config = {
   weblateProject: 'my-project',
   weblateComponent: 'my-component',
   supportedLanguages: ['en', 'fr'],
-  translationFunction: 't',
+  translationFunction: ['t'],
   sourceDirectory: 'src',
   localesDirectory: 'src/locales',
   temporaryDirectory: 'locales_tmp',

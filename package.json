@@ -1,6 +1,6 @@
 {
   "name": "weblate-sync-tool",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A tool to synchronize translation files with Weblate.",
   "main": "src/index.js",
   "scripts": {
